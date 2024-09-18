@@ -41,12 +41,43 @@ print(num1)
 
 print("-----------------------")
 
-twolist = ["apple","banana","woodapple"]
-twolist.insert(2,"lakshan")
-print(twolist)
+lakshan = ["sachintha","madhushan","pinsara","aasdd"]
 
-for x in twolist:
+i = 0
+
+while i < len(lakshan):
+    print(lakshan[i])
+
+    i = i + 1
+
+#List sort
+
+newli = [122,3,4,5,6,777,89]
+
+newli.sort()
+print(newli)
+
+thislist = ["orange", "mango", "kiwi", "pineapple", "banana"]
+
+thislist.sort()
+print(thislist)
+
+print("-------------------------")
+
+thislist.sort(reverse=True)
+print(thislist)
+
+print("-----------------------------")
+
+arryli = [1,2,3,4,5,6,7]
+
+for x in arryli:
     print(x)
 
-for i in range(len(twolist)):
-    print(i)
+print("----------------------------")
+
+arryli.sort(reverse=True)
+for x in arryli:
+    print(x)
+
+
