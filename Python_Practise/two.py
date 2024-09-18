@@ -80,4 +80,31 @@ arryli.sort(reverse=True)
 for x in arryli:
     print(x)
 
+print("---------------------------")
+
+listr = ["apple","banana","cherry","lakshan","man"]
+
+saclak = listr.copy()
+
+print(saclak)
+print(listr)
+
+print("------------------")
+
+list1 = ["a","b","c","d"]
+list2 = [1,2,3,4]
+
+for i in list2:
+    list1.append(i)
+   
+print(list1)
+
+#another way
+
+list3 = ["orange","banana","apple","grapes"]
+list4 = [1,2,3,4,5]
+
+list3.extend(list4)
+print(list3)
+
 
