@@ -52,5 +52,17 @@ def nam_func(names):
         print(x)
 
 nam = ["lakshan","sachintha","munasinghe"]
-nam_func(nam)                  
+nam_func(nam)                 
 
+print("-----------------------------")
+
+#print("What is your age ?")
+#age = input()
+#print("your age is : ",age)
+
+print("lakshan"+"sachintha")
+
+var = "123"
+print(type(var))
+
+print(type(3.0))
