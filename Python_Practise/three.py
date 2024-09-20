@@ -77,10 +77,61 @@
 #for i in range(1,101):
 #    print(i)
   
-arr1 = ["red","blue","yellow"]
-arr2 = ["apple","orange","cherry"]
+#arr1 = ["red","blue","yellow"]
+#arr2 = ["apple","orange","cherry"]
 
-for x in arr1:
-    for y in arr2:
-        print(x,y)
-        
+#for x in arr1:
+#   for y in arr2:
+#        print(x,y)
+
+#def lakshan(name,age):
+#    print("my name is :",name," my age is ",age)
+
+
+#lakshan("lakshan",23)
+
+#def my_function(**kid):
+#    print("His last name is " + kid["lname"])  
+
+#my_function(fname = "lakshan",lname = "sachintha")          
+
+#def my_func(country = "sri lanka",name = "xzoy"):
+#    print("my name is :",name," My country is :",country)
+
+
+#my_func()
+#my_func("lakshan","new zealand")
+#my_func("sachintha","India")
+#my_func()
+
+#def raky(food):
+#    for x in food:
+#        print(x)
+#fruits = ["banana","apple","orange","jhd"]
+#raky(fruits) 
+
+#def lakshan(x):
+ #   return 5*x
+
+#print(lakshan(23))    
+
+#def lakshan(x):
+#    print(x)
+
+#lakshan(x=34)
+
+print("Python Array")
+
+cars = ["BMW","Benz","toyota","wva"]
+
+#for x in cars:
+#    cars[1] ="lakshan"
+#    print(x)
+
+x = len(cars)
+
+print(x)
+
+cars.append("sachintha")
+
+print(cars)
