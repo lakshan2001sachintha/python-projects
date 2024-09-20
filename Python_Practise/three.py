@@ -120,18 +120,67 @@
 
 #lakshan(x=34)
 
-print("Python Array")
+#print("Python Array")
 
-cars = ["BMW","Benz","toyota","wva"]
+#cars = ["BMW","Benz","toyota","wva"]
 
 #for x in cars:
 #    cars[1] ="lakshan"
 #    print(x)
 
-x = len(cars)
+#x = len(cars)
 
-print(x)
+#print(x)
 
-cars.append("sachintha")
+#cars.append("sachintha")
 
-print(cars)
+#print(cars)
+
+print("Clases and Object")
+
+class Myclass:
+    x = 34
+
+p1 = Myclass()
+p2 = Myclass()
+print(p1.x)
+print(p2.x)
+
+print("-------------------")
+
+class Person:
+    def __init__(self,name,age):
+        self.name = name
+        self.age = age
+
+p1 = Person("Lakshan",23)
+print(p1.name)
+print(p1.age)        
+   
+print("---------__str__()------------")
+
+class Person:
+    def __init__(self,name,age):
+        self.name = name
+        self.age = age
+
+p1 = Person("lakshan",23)
+
+print(p1)
+
+print("----------------------------")
+
+class Person:
+    def __init__(self,name,age):
+        self.name = name
+        self.age = age
+
+    def myfunc(self):
+        print("Hello my name is "+self.name+" Your age is "+self.age)
+
+p1 = Person("Lakshan",23)
+p1.myfunc()
+
+
+
+
