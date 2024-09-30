@@ -168,7 +168,7 @@ p1 = Person("lakshan",23)
 
 print(p1)
 
-print("----------------------------")
+print("----------lakshan------------")
 
 class Person:
     def __init__(self,name,age):
